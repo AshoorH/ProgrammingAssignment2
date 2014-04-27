@@ -45,3 +45,12 @@ cacheSolve <- function(x, ...) {
         #return the inverse
         inverse
 }
+
+## Example:
+## a = matrix(1:4,2,2)
+## x <- makeCacheMatrix()
+## x$set(a)
+## b<-cacheSolve(x)
+##validate
+## a%*%b 
+## This should give identity matrix 
